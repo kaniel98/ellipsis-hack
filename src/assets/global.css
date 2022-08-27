@@ -1,0 +1,22 @@
+html {
+    background-color: rgba(192, 217, 253, 1);
+}
+
+.white-bg {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/* Prevents overscroll */
+body {
+    font-family: 'Basis Grotesque', Arial, Helvetica, sans-serif;
+    overscroll-behavior-y: none;
+}
+
+/* Background colours */
+/* rgba(192, 217, 253, 1); */
+
+/* Secondary background colous */
+/* rgba(255, 255, 255, 1) */
+
+/* Text colours */
+/* rgba(0, 0, 0, 1) */

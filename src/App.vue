@@ -1,13 +1,17 @@
 <template>
-    <div></div>
+    <div>
+        <navigation-bar></navigation-bar>
+    </div>
 </template>
 
 <script>
+import NavigationBar from './components/layouts/TheNavigationBar.vue';
+
 export default {
-    name: "App",
-    // components: {
-    //     HelloWorld,
-    // },
+    name: 'App',
+    components: {
+        'navigation-bar': NavigationBar
+    }
 };
 </script>
 
