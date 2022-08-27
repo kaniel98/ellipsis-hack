@@ -2,7 +2,7 @@
     <nav :class="'navbar white-bg fixed-top p-3 ' + navBarVisibility">
         <div class="container-fluid">
             <a class="navbar-brand" href="https://www.goldmansachs.com/" target="_blank" rel="noopener noreferrer">
-            <img src="../../assets/icon.png" alt="">
+                <img src="../../assets/icon.png" alt="" />
             </a>
             <button
                 class="navbar-toggler"
@@ -18,19 +18,28 @@
         </div>
 
         <!-- Nav bar links -->
-        <div class="collapse navbar-collapse justify-content-start align-center ml-auto " id="main-nav">
+        <div class="collapse navbar-collapse float-left align-center" id="main-nav">
             <ul class="navbar-nav text-nowrap">
                 <li class="nav-item">
-                    <a href="#about" class="nav-link">Dashboard</a>
+                    <a href="#about" class="nav-link">
+                        <i class="bi bi-square-half me-2"></i>
+                        Dashboard</a
+                    >
                 </li>
                 <li class="nav-item">
-                    <a href="#consumers" class="nav-link">Consumers</a>
+                    <a href="#consumers" class="nav-link">
+                        <i class="bi bi-person-badge me-2"></i>
+                        Consumers</a
+                    >
                 </li>
                 <li class="nav-item">
-                    <a href="#transactions" class="nav-link">Transactions</a>
+                    <a href="#transactions" class="nav-link"> <i class="bi bi-currency-exchange me-2"></i>Transactions</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#shops" class="nav-link">Shops</a>
+                    <a href="#shops" class="nav-link">
+                        <i class="bi bi-bag-check me-2"></i>
+                        Shops</a
+                    >
                 </li>
             </ul>
         </div>
@@ -95,5 +104,4 @@ export default {
 img {
     width: 108px;
 }
-
 </style>
