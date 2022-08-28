@@ -8,8 +8,8 @@
 export default {
     props: {
         columnLength: {
-            type: String,
-            default: '3'
+            type: Number,
+            default: 3
         }
     },
 

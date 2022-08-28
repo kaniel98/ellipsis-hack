@@ -19,7 +19,7 @@
             </box-container>
         </div>
         <div class="row">
-            <box-container :columnLength="6">
+            <box-container :columnLength="7">
                 <template v-slot:GraphContent>
                     <div id="vendor-analysis">
                         <vendor-analysis></vendor-analysis>

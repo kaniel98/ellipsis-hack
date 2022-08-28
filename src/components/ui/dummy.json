@@ -2,7 +2,7 @@
     "vendors": [
         {
             "id": 0,
-            "vendor": "Tech Wye Confectionary",
+            "name": "Tech Wye Confectionary",
             "conversion_rate": -25,
             "customer_retention_rate": -20,
             "average_order_rate": -15,
@@ -12,7 +12,7 @@
         },
         {
             "id": 1,
-            "vendor": "Kong Guan Biscuits",
+            "name": "Kong Guan Biscuits",
             "conversion_rate": 5,
             "customer_retention_rate": 10,
             "average_order_rate": 15,
@@ -22,7 +22,7 @@
         },
         {
             "id": 2,
-            "vendor": "KeyChron",
+            "name": "KeyChron",
             "conversion_rate": 45,
             "customer_retention_rate": 50,
             "average_order_rate": 55,
@@ -32,7 +32,7 @@
         },
         {
             "id": 3,
-            "vendor": "Nuphy",
+            "name": "Nuphy",
             "conversion_rate": 55,
             "customer_retention_rate": 60,
             "average_order_rate": 65,
@@ -42,7 +42,7 @@
         },
         {
             "id": 4,
-            "vendor": "Koi Co",
+            "name": "Koi Co",
             "conversion_rate": 25,
             "customer_retention_rate": -25,
             "average_order_rate": 35,

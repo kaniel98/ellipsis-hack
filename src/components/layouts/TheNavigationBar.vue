@@ -104,4 +104,9 @@ export default {
 img {
     width: 108px;
 }
+
+nav {
+    padding-left: 30px;
+    padding-right: 30px;
+}
 </style>
