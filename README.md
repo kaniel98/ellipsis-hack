@@ -5,6 +5,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
+      <a href="#pitchdeck">Pitch Deck</a>
       <a href="#solution-outline">Solution Outline</a>
       <ol>
         <li><a href="#deep-dive">Deep Dive</a></li>
@@ -17,6 +18,8 @@
     <li><a href="#installation">Installation</a></li>
   </ol>
 </details>
+
+## [PitchDeck]
 
 ## Solution Outline
 
@@ -86,3 +89,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 [Chartjs]: https://www.chartjs.org/
 [Bootstrap]: https://bootstrap-vue.org/
 [Axios]: https://axios-http.com/
+[PitchDeck]: https://docs.google.com/presentation/d/1ibIqnG_3DzaDf3Tir3Uf40iyPVYe_NZnv2RNkaLwo68/edit?usp=sharing
