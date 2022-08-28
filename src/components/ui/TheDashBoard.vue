@@ -1,6 +1,10 @@
 <template>
     <div class="container-fluid base-bg">
         <div class="row">
+            <!-- Martin, insert your table here -->
+        </div>
+
+        <div class="row">
             <box-container :columnLength="3">
                 <template v-slot:GraphContent>
                     <div id="pie-chart">
