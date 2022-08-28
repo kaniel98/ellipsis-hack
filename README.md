@@ -4,9 +4,9 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
+    <li><a href="#pitchdeck">Pitch Deck</a></li>
+    <li><a href="#figmamockup">Figma Mockup</a></li>
     <li>
-      <a href="#pitchdeck">Pitch Deck</a>
-      <a href="#figmamockup">Figma Mockup</a>
       <a href="#solution-outline">Solution Outline</a>
       <ol>
         <li><a href="#deep-dive">Deep Dive</a></li>
