@@ -1,0 +1,54 @@
+{
+    "vendors": [
+        {
+            "id": 0,
+            "vendor": "Tech Wye Confectionary",
+            "conversion_rate": -25,
+            "customer_retention_rate": -20,
+            "average_order_rate": -15,
+            "net_profit_rate": -10,
+            "cart_abandonment_rate": -5,
+            "number_of_orders": 25
+        },
+        {
+            "id": 1,
+            "vendor": "Kong Guan Biscuits",
+            "conversion_rate": 5,
+            "customer_retention_rate": 10,
+            "average_order_rate": 15,
+            "net_profit_rate": 20,
+            "cart_abandonment_rate": 2,
+            "number_of_orders": 25
+        },
+        {
+            "id": 2,
+            "vendor": "KeyChron",
+            "conversion_rate": 45,
+            "customer_retention_rate": 50,
+            "average_order_rate": 55,
+            "net_profit_rate": 60,
+            "cart_abandonment_rate": 40,
+            "number_of_orders": 35
+        },
+        {
+            "id": 3,
+            "vendor": "Nuphy",
+            "conversion_rate": 55,
+            "customer_retention_rate": 60,
+            "average_order_rate": 65,
+            "net_profit_rate": 50,
+            "cart_abandonment_rate": 40,
+            "number_of_orders": 35
+        },
+        {
+            "id": 4,
+            "vendor": "Koi Co",
+            "conversion_rate": 25,
+            "customer_retention_rate": -25,
+            "average_order_rate": 35,
+            "net_profit_rate": -35,
+            "cart_abandonment_rate": 45,
+            "number_of_orders": 45
+        }
+    ]
+}

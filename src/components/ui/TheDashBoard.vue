@@ -18,6 +18,15 @@
                 </template>
             </box-container>
         </div>
+        <div class="row">
+            <box-container :columnLength="6">
+                <template v-slot:GraphContent>
+                    <div id="vendor-analysis">
+                        <vendor-analysis></vendor-analysis>
+                    </div>
+                </template>
+            </box-container>
+        </div>
     </div>
 </template>
 
@@ -26,6 +35,7 @@ import { reactive, toRefs } from '@vue/reactivity';
 import PieChart from './PieChart.vue';
 import BoxContainer from './BoxContainer.vue';
 import LineChart from './LineGraph.vue';
+import VendorAnalysis from './VendorAnalysis.vue';
 
 export default {
     setup() {
@@ -69,7 +79,8 @@ export default {
     components: {
         'pie-chart': PieChart,
         'box-container': BoxContainer,
-        'line-chart': LineChart
+        'line-chart': LineChart,
+        'vendor-analysis': VendorAnalysis
     },
 
     name: 'DashBoard'
