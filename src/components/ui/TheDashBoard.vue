@@ -8,9 +8,6 @@
                     </div>
                 </template>
             </box-container>
-        </div>
-
-        <div class="row">
             <box-container :columnLength="3">
                 <template v-slot:GraphContent>
                     <line-chart :chartData="lineData" :options="lineOptions"></line-chart>
