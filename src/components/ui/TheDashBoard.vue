@@ -13,9 +13,7 @@
         <div class="row">
             <box-container :columnLength="3">
                 <template v-slot:GraphContent>
-                    <div id="line-graph">
-                        <pie-chart :chartData="lineData" :options="lineOptions"></pie-chart>
-                    </div>
+                    <line-chart :chartData="lineData" :options="lineOptions"></line-chart>
                 </template>
             </box-container>
         </div>
@@ -24,9 +22,9 @@
 
 <script>
 import { reactive, toRefs } from '@vue/reactivity';
-import PieChart from './pie-chart.vue';
+import PieChart from './PieChart.vue';
 import BoxContainer from './BoxContainer.vue';
-import LineChart from './line-graph.vue';
+import LineChart from './LineGraph.vue';
 
 export default {
     setup() {
@@ -56,9 +54,9 @@ export default {
                 labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
                 datasets: [
                     {
-                    label: 'Data One',
-                    backgroundColor: '#f87979',
-                    data: [40, 39, 10, 40, 39, 80, 40]
+                        label: 'Data One',
+                        backgroundColor: '#f87979',
+                        data: [40, 39, 10, 40, 39, 80, 40]
                     }
                 ]
             }
@@ -75,6 +73,4 @@ export default {
 
     name: 'DashBoard'
 };
-
-
 </script>

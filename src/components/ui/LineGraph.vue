@@ -1,11 +1,11 @@
 <script>
 import { h } from 'vue';
 
-import { Line } from 'vue-chartjs'
+import { Line } from 'vue-chartjs';
 
-import { Chart as ChartJS, Title, Tooltip, Legend, LineElement, LinearScale, PointElement, CategoryScale, Plugin} from 'chart.js'
+import { Chart as ChartJS, Title, Tooltip, Legend, LineElement, LinearScale, PointElement, CategoryScale } from 'chart.js';
 
-ChartJS.register(Title, Tooltip, Legend, LineElement, LinearScale, PointElement, CategoryScale)
+ChartJS.register(Title, Tooltip, Legend, LineElement, LinearScale, PointElement, CategoryScale);
 
 export default {
     name: 'LineChart',
@@ -48,27 +48,35 @@ export default {
                 labels: [],
                 datasets: []
             })
+        },
+        chartData: {
+            type: Object,
+            default: () => ({
+                labels: [],
+                datasets: []
+            })
+        },
+        chartOptions: {
+            type: Object,
+            default: () => ({
+                labels: [],
+                datasets: []
+            })
         }
     },
 
     setup(props) {
-
         return () =>
             h(Line, {
-                chartData,
-                chartOptions,
+                chartData: props.chartData,
+                chartOptions: props.chartOptions,
                 chartId: props.chartId,
                 width: props.width,
                 height: props.height,
                 cssClasses: props.cssClasses,
                 styles: props.styles,
                 plugins: props.plugins
-            })
+            });
     }
-}
+};
 </script>
-
-
-
-
-
