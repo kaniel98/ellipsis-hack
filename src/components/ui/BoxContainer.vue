@@ -1,8 +1,6 @@
 <template>
-    <div class="row base-bg">
-        <div :class="colLength">
-            <slot name="GraphContent"></slot>
-        </div>
+    <div :class="'white-bg rounded-2 ' + colLength">
+        <slot name="GraphContent"></slot>
     </div>
 </template>
 
@@ -26,6 +24,6 @@ export default {
 
 <style scoped>
 div {
-    margin-top: 30px;
+    margin: 30px;
 }
 </style>
