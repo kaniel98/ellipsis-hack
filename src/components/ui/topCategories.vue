@@ -1,6 +1,8 @@
 <style>
 
-
+      table {
+            width: 50%; 
+      }
 
 </style>
 
