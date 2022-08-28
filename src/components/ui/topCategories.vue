@@ -19,28 +19,28 @@
             </tr>
 
             <tr>
-                  <td>  </td>
+                  <td> 1 </td>
                   <td> Household Appliances </td>
                   <td color = 'mediumspringgreen'> +6000 </td>
                   <td color = 'mediumspringgreen'> +140000 </td>
             </tr>
 
             <tr>
-                  <td >  </td>
+                  <td > 2 </td>
                   <td> Fresh Groceries </td>
                   <td color = 'mediumspringgreen'> +320 </td>
                   <td color = 'mediumspringgreen'> +50000 </td>
             </tr>
 
             <tr>
-                  <td >  </td>
+                  <td > 3 </td>
                   <td> Fashion Apparels </td>
                   <td color = 'mediumspringgreen'> +80 </td>
                   <td color = 'mediumspringgreen'> +3600 </td>
             </tr>
 
             <tr>
-                  <td >  </td>
+                  <td > 4 </td>
                   <td> Gym Equipment </td>
                   <td color = 'red'> -60 </td>
                   <td color = 'mediumspringgreen'> +2600 </td>
