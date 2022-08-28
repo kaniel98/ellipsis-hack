@@ -12,6 +12,10 @@ body {
     overscroll-behavior-y: none;
 }
 
+section {
+    margin-top: 70px;
+}
+
 /* Background colours */
 /* rgba(192, 217, 253, 1); */
 

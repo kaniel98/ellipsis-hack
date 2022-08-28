@@ -1,9 +1,9 @@
 <template>
     <div>
         <navigation-bar></navigation-bar>
-    </div>
-    <div id="pie-chart">
-        <pie-chart :data="chartData" :options="chartOptions"></pie-chart>
+        <section>
+            <dash-board></dash-board>
+        </section>
     </div>
 </template>
 
@@ -11,33 +11,13 @@
 // import axios from 'axios';
 
 import NavigationBar from './components/layouts/TheNavigationBar.vue';
-import PieChart from './pages/pie-chart';
+import DashBoard from '../src/components/ui/TheDashBoard.vue';
 
 export default {
     name: 'App',
     components: {
         'navigation-bar': NavigationBar,
-        'pie-chart': PieChart
-    },
-    
-    data() {
-        return {
-            chartOptions: {
-                hoverBorderWidth: 20
-            },
-            chartData: {
-                hoverBackgroundColor: "red",
-                hoverBorderWidth: 10,
-                labels: ["Green", "Red", "Blue"],
-                datasets: [
-                {
-                    label: "Data One",
-                    backgroundColor: ["#41B883", "#E46651", "#00D8FF"],
-                    data: [1, 10, 5]
-                }
-                ]
-            }
-        };
+        'dash-board': DashBoard
     }
 };
 </script>
