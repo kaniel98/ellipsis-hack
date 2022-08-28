@@ -6,6 +6,7 @@
   <ol>
     <li>
       <a href="#pitchdeck">Pitch Deck</a>
+      <a href="#figmamockup">Figma Mockup</a>
       <a href="#solution-outline">Solution Outline</a>
       <ol>
         <li><a href="#deep-dive">Deep Dive</a></li>
@@ -20,6 +21,7 @@
 </details>
 
 ## [PitchDeck]
+## [FigmaMockup]
 
 ## Solution Outline
 
@@ -90,3 +92,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 [Bootstrap]: https://bootstrap-vue.org/
 [Axios]: https://axios-http.com/
 [PitchDeck]: https://docs.google.com/presentation/d/1ibIqnG_3DzaDf3Tir3Uf40iyPVYe_NZnv2RNkaLwo68/edit?usp=sharing
+[FigmaMockup]: https://www.figma.com/file/5mNNLvxejr1rMY9Qx4az7y/Crypto-Dashboard-with-Component-(Light-%26-Dark-Version)-(Community)?node-id=47%3A1456
