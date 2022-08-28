@@ -49,6 +49,7 @@ Our libraries include:
 * [Bootstrap]
 * [Chartjs]
 * [Axios]
+* [Corejs]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,5 +92,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 [Chartjs]: https://www.chartjs.org/
 [Bootstrap]: https://bootstrap-vue.org/
 [Axios]: https://axios-http.com/
+[Corejs]: https://www.npmjs.com/package/core-js
 [PitchDeck]: https://docs.google.com/presentation/d/1ibIqnG_3DzaDf3Tir3Uf40iyPVYe_NZnv2RNkaLwo68/edit?usp=sharing
 [FigmaMockup]: https://www.figma.com/file/5mNNLvxejr1rMY9Qx4az7y/Crypto-Dashboard-with-Component-(Light-%26-Dark-Version)-(Community)?node-id=47%3A1456
