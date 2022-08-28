@@ -5,6 +5,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#pitchdeck">Pitch Deck</a></li>
+    <li><a href="#pitchvideo">Pitch Video</a></li>
     <li><a href="#figmamockup">Figma Mockup</a></li>
     <li>
       <a href="#solution-outline">Solution Outline</a>
@@ -21,7 +22,9 @@
 </details>
 
 ## [PitchDeck]
+## [PitchVideo]
 ## [FigmaMockup]
+
 
 ## Solution Outline
 
@@ -93,5 +96,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 [Bootstrap]: https://bootstrap-vue.org/
 [Axios]: https://axios-http.com/
 [Corejs]: https://www.npmjs.com/package/core-js
-[PitchDeck]: https://docs.google.com/presentation/d/1ibIqnG_3DzaDf3Tir3Uf40iyPVYe_NZnv2RNkaLwo68/edit?usp=sharing
+[PitchDeck]: https://drive.google.com/drive/folders/1PT5Ucr77N-C50jmzSrPWEiL_EpDakjhH?usp=sharing
+[PitchVideo]: https://drive.google.com/drive/folders/1BIIq9qy_ugFGm6YpjOoGz9LIsmIX7iAo?usp=sharing
 [FigmaMockup]: https://www.figma.com/file/5mNNLvxejr1rMY9Qx4az7y/Crypto-Dashboard-with-Component-(Light-%26-Dark-Version)-(Community)?node-id=47%3A1456
