@@ -1,11 +1,15 @@
 <template>
-    <box-container :columnLength="3">
-        <template v-slot:GraphContent>
-            <div id="pie-chart" class="base-bg">
-                <pie-chart :chartData="chartData" :options="chartOptions"></pie-chart>
-            </div>
-        </template>
-    </box-container>
+    <div class="container-fluid base-bg">
+        <div class="row">
+            <box-container :columnLength="3">
+                <template v-slot:GraphContent>
+                    <div id="pie-chart">
+                        <pie-chart :chartData="chartData" :options="chartOptions"></pie-chart>
+                    </div>
+                </template>
+            </box-container>
+        </div>
+    </div>
 </template>
 
 <script>
