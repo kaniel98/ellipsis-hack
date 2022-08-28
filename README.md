@@ -40,15 +40,15 @@ For companies which wish to have a full package without needing to go through th
 ## Built With
 Our libraries include:
 
-* Vue[Vue-url]
-* Bootstrap[Bootstrap-url]
-* ChartJS[Chartjs-url]
-* Axios[Axios-url]
+* [Vue]
+* [Bootstrap]
+* [Chartjs]
+* [Axios]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Solution Architecture
-![alt text](images-url)
+![Images](images/architecture.png)
 
 We intend on making use of AWS’s Elastic Load Balancing & AWS Lambda. AWS Elastic Load Balancing (ELB) automatically distributes incoming application traffic across multiple targets and virtual appliances in one or more Availability Zones (AZs). Using this, we will be able to control the amount of traffic for each service, reducing long loading / processing time. 
 
@@ -80,14 +80,9 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
-
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Chartjs-url]: https://www.chartjs.org/
-[Bootstrap-url]: https://bootstrap-vue.org/
-[Axios-url]: https://axios-http.com/
-[image-url]: images/architecture.png
+[Vue]: https://vuejs.org/
+[Chartjs]: https://www.chartjs.org/
+[Bootstrap]: https://bootstrap-vue.org/
+[Axios]: https://axios-http.com/
