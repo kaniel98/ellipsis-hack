@@ -34,37 +34,36 @@ export default {
         },
         plugins: {
             default: []
+        },
+        lineData: {
+            type: Object,
+            default: () => ({
+                labels: [],
+                datasets: []
+            })
+        },
+        lineOptions: {
+            type: Object,
+            default: () => ({
+                labels: [],
+                datasets: []
+            })
         }
     },
 
     setup(props) {
-    const chartData = {
-      labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
-      datasets: [
-        {
-          label: 'Data One',
-          backgroundColor: '#f87979',
-          data: [40, 39, 10, 40, 39, 80, 40]
-        }
-      ]
-    }
 
-    const chartOptions = {
-      responsive: true,
-      maintainAspectRatio: false
-    }
-
-    return () =>
-      h(Line, {
-        chartData,
-        chartOptions,
-        chartId: props.chartId,
-        width: props.width,
-        height: props.height,
-        cssClasses: props.cssClasses,
-        styles: props.styles,
-        plugins: props.plugins
-      })
+        return () =>
+            h(Line, {
+                chartData,
+                chartOptions,
+                chartId: props.chartId,
+                width: props.width,
+                height: props.height,
+                cssClasses: props.cssClasses,
+                styles: props.styles,
+                plugins: props.plugins
+            })
     }
 }
 </script>
