@@ -1,19 +1,25 @@
 <template>
-    <div id="pie-chart">
-        <pie-chart :data="chartData" :options="chartOptions"></pie-chart>
-    </div>
+    <box-container :columnLength="3">
+        <template v-slot:GraphContent>
+            <div id="pie-chart" class="base-bg">
+                <pie-chart :chartData="chartData" :options="chartOptions"></pie-chart>
+            </div>
+        </template>
+    </box-container>
 </template>
 
 <script>
 import { reactive, toRefs } from '@vue/reactivity';
 import PieChart from './pie-chart.vue';
-
+import BoxContainer from './BoxContainer.vue';
 
 export default {
     setup() {
         const state = reactive({
             chartOptions: {
-                hoverBorderWidth: 20
+                hoverBorderWidth: 20,
+                responsive: true,
+                maintainAspectRatio: false
             },
             chartData: {
                 hoverBackgroundColor: 'red',
@@ -33,9 +39,10 @@ export default {
     },
 
     components: {
-        "pie-chart": PieChart
+        'pie-chart': PieChart,
+        'box-container': BoxContainer
     },
 
-    name: "DashBoard"
+    name: 'DashBoard'
 };
 </script>
