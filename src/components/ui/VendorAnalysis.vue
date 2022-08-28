@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="row">
-            <h1>Vendor Analysis</h1>
+            <p class="display-4">Vendor Analysis</p>
             <input
                 type="text"
                 class="form-control bg-light text-dark rounded-1 border-0 my-4"
